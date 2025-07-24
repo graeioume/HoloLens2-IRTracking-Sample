@@ -1,0 +1,35 @@
+Unity Editor session started at 7/24/2025 3:34:48 PM
+
+7/24/2025 3:34:53 PM: [Warning] Creating missing AudioSource component for MLWebRTCAudioSinkBehavior in MLWebRTCAudioTrackBehavior.
+
+
+7/24/2025 3:34:55 PM: [Log] Created initial copy of settings: XRDeviceSimulatorSettings at Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+UnityEngine.Debug:Log (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:Log (string,UnityEngine.Object) (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/XRLoggingUtils.cs:34)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings>:Save (string) (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/ScriptableSettingsBase.cs:261)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings>:CreateAndLoad () (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/ScriptableSettings.cs:44)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulatorSettings>:get_Instance () (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/ScriptableSettings.cs:24)
+System.Reflection.RuntimePropertyInfo:GetValue (object,object[])
+Unity.XR.CoreUtils.ScriptableSettingsBase:GetInstanceByType (System.Type) (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/ScriptableSettingsBase.cs:54)
+Unity.XR.CoreUtils.Editor.Internal.ScriptableSettingsInitializer/<>c__DisplayClass3_0:<LoadAllSettingsClasses>b__0 (System.Reflection.Assembly) (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Editor/ScriptableSettingsInitializer.cs:43)
+Unity.XR.CoreUtils.ReflectionUtils:ForEachAssembly (System.Action`1<System.Reflection.Assembly>) (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Runtime/ReflectionUtils.cs:91)
+Unity.XR.CoreUtils.Editor.Internal.ScriptableSettingsInitializer:LoadAllSettingsClasses () (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Editor/ScriptableSettingsInitializer.cs:39)
+Unity.XR.CoreUtils.Editor.Internal.ScriptableSettingsInitializer:Update () (at ./Library/PackageCache/com.unity.xr.core-utils@2.3.0/Editor/ScriptableSettingsInitializer.cs:33)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+7/24/2025 3:35:40 PM: [Warning] Magic Leap 2 Texture import - Packages/com.unity.xr.arfoundation/Assets/Textures/UnityLogoWhiteRGB.png - Changing Android texture compression from ASTC_6x6 to DXT5
+System.Reflection.MethodBase:Invoke (object,object[])
+MagicLeap.SetupTool.Editor.Utilities.UnityProjectSettingsUtility:SetTextureCompression (UnityEditor.BuildTargetGroup,string) (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/UnityProjectSettingsUtility.cs:320)
+MagicLeap.SetupTool.Editor.Setup.SetDefaultTextureCompressionStep:Execute () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/SetDefaultTextureCompressionStep.cs:101)
+MagicLeap.SetupTool.Editor.Setup.SetDefaultTextureCompressionStep:Draw () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/SetDefaultTextureCompressionStep.cs:58)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:OnGUI () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:278)
+UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+
+
+7/24/2025 3:35:49 PM: [Warning] Magic Leap 2 Texture import - Packages/com.unity.xr.arfoundation/Assets/Textures/UnityLogoWhiteRGB.png - Changing Android texture compression from ASTC_6x6 to DXT5
+UnityEngine.XR.MagicLeap.MagicLeapProjectValidation/<>c:<.cctor>b__5_2 ()
+MagicLeap.SetupTool.Editor.Setup.FixValidationSetup:OnEditorUpdate () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/MLSDK/FixValidationSetup.MagicLeapSDK.cs:123)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+

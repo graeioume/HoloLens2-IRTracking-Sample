@@ -1,0 +1,14 @@
+Unity Editor session started at 7/24/2025 3:28:24 PM
+
+7/24/2025 3:28:40 PM: [Log] Using deprecated Magic Leap Sdk
+UnityEngine.Debug:Log (object)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:CheckUnityMagicLeapPackage () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:182)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:Refresh () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:103)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:RefreshSteps () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:311)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:OnFocus () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:293)
+UnityEditor.EditorWindow:GetWindow<MagicLeap.SetupTool.Editor.MagicLeapSetupWindow> (bool,string)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:Open () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:321)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow/<>c:<ForceOpen>b__37_0 () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:379)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+

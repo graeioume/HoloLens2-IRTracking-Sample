@@ -1,0 +1,8 @@
+Unity Editor session started at 7/24/2025 3:29:12 PM
+
+7/24/2025 3:29:41 PM: [Exception] NullReferenceException: Object reference not set to an instance of an object
+UnityEditor.XR.MagicLeap.MagicLeapProjectValidationRulesSetup.HasMagicLeapPackageVersionChanged (UnityEditor.PackageManager.PackageRegistrationEventArgs packageRegistrationEventArgs) (at ./Library/PackageCache/com.unity.xr.magicleap@7.1.3/Editor/MagicLeapProjectValidationRulesSetup.cs:44)
+UnityEditor.XR.MagicLeap.MagicLeapProjectValidationRulesSetup+<>c__DisplayClass2_0.<MagicLeapProjectValidationCheck>b__1 () (at ./Library/PackageCache/com.unity.xr.magicleap@7.1.3/Editor/MagicLeapProjectValidationRulesSetup.cs:31)
+UnityEditor.EditorApplication.Internal_CallDelayFunctions () (at <043e10ec4a0f4999a2729072194b9cfe>:0)
+
+

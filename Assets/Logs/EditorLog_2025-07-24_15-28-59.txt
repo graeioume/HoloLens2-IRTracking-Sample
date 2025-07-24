@@ -1,0 +1,24 @@
+Unity Editor session started at 7/24/2025 3:28:59 PM
+
+7/24/2025 3:29:00 PM: [Warning] Import Error Code:(4)
+Message: Build asset version error: assets/logs/editorlog_2025-07-24_15-28-27.txt in SourceAssetDB has modification time of '2025-07-24T19:29:00.8640676Z' while content on disk has modification time of '2025-07-24T19:29:00.9308239Z'
+
+UnityEditor.AssetDatabase:Refresh ()
+Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences:get_Instance () (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@321dd3d08b64/Core/Utilities/Editor/Preferences/ProjectPreferences.cs:69)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.ProjectPreferences:Get (string,bool) (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@321dd3d08b64/Core/Utilities/Editor/Preferences/ProjectPreferences.cs:119)
+Microsoft.MixedReality.Toolkit.Editor.MixedRealityProjectPreferences:get_IgnoreSettingsPrompt () (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@321dd3d08b64/Core/Utilities/Editor/Preferences/MixedRealityProjectPreferences.cs:59)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.MixedRealityEditorSettings:ShowProjectConfigurationDialog () (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@321dd3d08b64/Core/Inspectors/Setup/MixedRealityEditorSettings.cs:87)
+Microsoft.MixedReality.Toolkit.Utilities.Editor.MixedRealityEditorSettings:OnInit () (at ./Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@321dd3d08b64/Core/Inspectors/Setup/MixedRealityEditorSettings.cs:47)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+
+7/24/2025 3:29:01 PM: [Log] Add com.unity.xr.magicleap
+UnityEngine.Debug:Log (object)
+MagicLeap.SetupTool.Editor.Utilities.MagicLeapRegistryPackageImporter:InstallUnityMLPackage (System.Action`1<bool>) (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/Utilities/MagicLeapRegistryPackageImporter.cs:117)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:ImportUnityMagicLeapPackage () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:198)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:CheckUnityMagicLeapPackage () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:190)
+MagicLeap.SetupTool.Editor.Setup.ImportMagicLeapSdkStep:Refresh () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/SetupSteps/ImportMagicLeapSdkStep.cs:103)
+MagicLeap.SetupTool.Editor.MagicLeapSetupWindow:RefreshSteps () (at ./Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeapSetupWindow.cs:311)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+

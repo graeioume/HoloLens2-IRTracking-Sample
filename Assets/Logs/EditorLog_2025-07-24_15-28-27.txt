@@ -1,0 +1,14 @@
+Unity Editor session started at 7/24/2025 3:28:27 PM
+
+7/24/2025 3:29:00 PM: [Error] Assembly with name 'MagicLeap.SetupTool.Editor' already exists (Assets/magic-leap-setup-tool/Editor/MagicLeap.SetupTool.Editor.asmdef)
+
+
+7/24/2025 3:29:00 PM: [Error] Assembly with name 'MagicLeap.SetupTool.Editor' already exists (Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeap.SetupTool.Editor.asmdef)
+
+
+7/24/2025 3:29:00 PM: [Error] Assembly with name 'MagicLeap.SetupTool.Editor' already exists (Assets/magic-leap-setup-tool/Editor/MagicLeap.SetupTool.Editor.asmdef)
+
+
+7/24/2025 3:29:00 PM: [Error] Assembly with name 'MagicLeap.SetupTool.Editor' already exists (Packages/com.magicleap.setuptool/Editor/SetupProcess/MagicLeap.SetupTool.Editor.asmdef)
+
+
